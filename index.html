@@ -46,15 +46,15 @@
            }
 
            .logo img {
-              height: 50px; 
+              height: 30px; 
               width: auto;
               display: block; 
            }
 
            .logo span {
-              font-family: 'Bebas Neue', sans-serif;
+              font-family: 'Montserrat', sans-serif;
               font-weight: 400;         
-              font-size: 40px; 
+              font-size: 20px; 
               color: #fff9f9;           
               margin-left: 15px;        
               line-height: 1;          
@@ -72,21 +72,62 @@
                     left:50%; 
                     align-items: center; 
                     transform: translate(-50%, -50%);
-                    text-align: center;           
+                    text-align: center;   
+                    margin-top: -50px;        
               }
 
               .hero-container h1 {
                     font-family: 'Montserrat', sans-serif;
                     font-weight: 400;         
-                    font-size: 80px; 
+                    font-size: 120px; 
                     color: #fff9f9;           
                     margin-bottom: 20px;        
               }
                 .hero-container p {
                         font-family: 'Montserrat', sans-serif;
-                        font-size: 20px; 
+                        font-size: 15px; 
                         color: #fff9f9; 
                 }
+
+                .hero-buttons {
+                    position: absolute;
+                    top: 70%;
+                    left: 50%;
+                    transform: translate(-50%, -50%); 
+                    display: flex; 
+                    gap: 20px; 
+                    margin-top: -50px;  
+                }
+                .btn {
+                   font-family: 'Montserrat', sans-serif;
+                   font-size: 16px;         
+                   font-weight: 700;
+                   text-decoration: none;
+                   padding: 16px 40px;       
+                   border-radius: 6px;     
+                   transition: all 0.3s ease;
+  }
+
+                .primary-btn {
+                   background-color: #fff9f9;
+                   color: #000;
+                }
+
+              .primary-btn:hover {
+              background-color: #6e83eb; 
+              color: #000;
+        }
+
+            .secondary-btn {
+            background-color: transparent;
+            color: #6e83eb;
+            border: 2px solid #fff9f9;
+      } 
+
+.secondary-btn:hover {
+    background-color: #fff9f9;
+    color: #000;
+}
             
          </style>
          <nav>
@@ -95,17 +136,22 @@
                 <span>STEMPACT</span>
             </div>
             <div class="nav-links">
-                <a href="#vision">OUR VISION</a>
-                <a href="#about">RESEARCH</a>
-                <a href="#contact">CONTACT</a>
-                <a href="#pictures">PICTURES</a>
+                <a href="vision.html">OUR VISION</a>
+                <a href="research.html">RESEARCH</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="pictures.html">PICTURES</a>
             </div>
         </nav>
     </head>
     <body class = "background-page">
         <div class="hero-container">
-            <h1><bold>STEM</bold>PACT</h1>
+            <h1><span style="font-weight: 700;">STEM</span>PACT</h1>
             <p>NON-PROFIT BIO-RESEARCH · INNOVATION · SUSTAINABLE DEVELOPMENT</p>
         </div>
+        
+        <div class="hero-buttons">
+        <a href="vision.html" class="btn primary-btn">EXPLORE</a>
+        <a href="https://instagram.com/YOUR_USERNAME" target="_blank" class="btn secondary-btn">INSTAGRAM</a>
+    </div>
     </body>
     </html>
