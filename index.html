@@ -1,119 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="icon" type="image/png" href="https://shanker2011.github.io/STEMpact-2026/Images/logo.png">
-  <meta charset="UTF-8">
-  <title>STEMpact</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <head>
+        <link rel="icon" type="image/png" href="https://shanker2011.github.io/STEMpact-2026/Images/logo.png">
+        <meta charset="UTF-8">
+        <title>STEMpact</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <style>
+        /* Everything in the style tag is done with css(controls how things look, html is the structure)*/
+           * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+           }
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
+           body {
+              font-family: 'montserrat', sans-serif;
+           }
 
-    nav {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 40px;
-      z-index: 10;
-    }
-
-    nav img {
-      height: 70px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 40px;
-    }
-
-    nav ul li a {
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 400;
-      letter-spacing: 0.04em;
-    }
-
-    nav ul li a:hover {
-      color: #3acfcf;
-    }
-
-    .hero {
-      position: relative;
-      background-image: url('Images/background.png');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    .overlay {
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.3);
-    }
-
-    .content {
-      position: relative;
-      z-index: 1;
-    }
-
-    h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12vw;
-      font-weight: 300;
-      color: white;
-      letter-spacing: 0.02em;
-      line-height: 1;
-      margin-bottom: 20px;
-    }
-
-    .tagline {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1vw;
-      font-weight: 700;
-      color: white;
-      letter-spacing: 0.2em;
-      opacity: 0.85;
-    }
-  </style>
-</head>
-<body>
-
-  <nav>
-    <img src="https://shanker2011.github.io/STEMpact-2026/Images/logo.png" alt="STEMpact Logo">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="vision.html">Our Vision</a></li>
-      <li><a href="impact.html">Impact</a></li>
-      <li><a href="research.html">Research Areas</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="hero">
-    <div class="overlay"></div>
-    <div class="content">
-      <h1><b>STEM</b>PACT</h1>
-      <p class="tagline">NON-PROFIT BIO RESEARCH · INNOVATION · SUSTAINABLE DEVELOPMENT</p>
-    </div>
-  </div>
-
-</body>
-</html>
+           nav {
+             position:absolute;
+             top: 0;
+             right: 0;
+             width: 100%; /*play around with this value to adjust the width to your liking*/
+             display: flex;  /*aligns everything in nav area in a row*/
+             align-items: center; /*vertically centers the items in the nav area*/
+             justify-content: space-between; /*adds space between the items in the nav area*/
+             padding: 20px 40px; 
+             z-index: 10; /*ensures the nav bar stays on the top of other content*/
+           }
+        </style>
+    </head>
