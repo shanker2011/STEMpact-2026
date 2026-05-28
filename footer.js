@@ -11,13 +11,28 @@ const footerStyles = `
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;                 
         }
+    .footer-links a {
+        color: #fff9f9
+        text-decoration: none;
+        margin: 10px;
+    }
 </style>
 `;
 document.head.insertAdjacentHTML('beforeend', footerStyles);
 
 const footerHTML = `
 <footer class = "footer">
-    &copy; 2026 STEMPACT (ADD MORE INFO LATER)
+    <div class="club-name">
+                <h1>STEMPACT</h1>
+     </div>
+     <div class="footer-links">
+                <a href="vision.html">ABOUT</a>
+                <a href="research.html">OUR WORK</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="pictures.html">PHOTOS</a>
+            </div>
+    <div class="copyright-club">
+    <p>&copy; STEMPACT</p>
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;

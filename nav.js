@@ -59,7 +59,7 @@
                 <a href="vision.html">OUR VISION</a>
                 <a href="research.html">RESEARCH</a>
                 <a href="contact.html">CONTACT</a>
-                <a href="pictures.html">PICTURES</a>
+                <a href="pictures.html">PHOTOS</a>
             </div>
 
 
