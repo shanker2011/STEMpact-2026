@@ -5,10 +5,10 @@ const footerStyles = `
         bottom: 0;
         width: 100%;
         text-align: center;
-        padding: 20px; 
+        padding: 50px; 
         background-color: rgba(0, 0, 0, 0.5); 
         color: #fff9f9;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
         font-size: 15px;                 
         }
     .footer-links a {
@@ -32,7 +32,7 @@ const footerHTML = `
                 <a href="pictures.html">PHOTOS</a>
             </div>
     <div class="copyright-club">
-    <p>&copy; STEMPACT</p>
+    <h8>&copy; — Frisco, TX</h8>
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;
