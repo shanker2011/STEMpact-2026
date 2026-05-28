@@ -23,7 +23,7 @@ document.head.insertAdjacentHTML('beforeend', footerStyles);
 const footerHTML = `
 <footer class = "footer">
     <div class="club-name">
-                <h1>STEMPACT</h1>
+                <h6>STEMPACT</h6>
      </div>
      <div class="footer-links">
                 <a href="vision.html">ABOUT</a>
