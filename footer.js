@@ -2,7 +2,7 @@ const footerStyles = `
 <style>
 
  .footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         text-align: center;
@@ -18,7 +18,7 @@ document.head.insertAdjacentHTML('beforeend', footerStyles);
 
 const footerHTML = `
 <footer>
-    &copy; 2026 STEMPACT (ADD MORE INFO LATER!)
+    &copy; 2026 STEMPACT (ADD MORE INFO LATER!!)
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;
