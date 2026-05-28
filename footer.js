@@ -1,6 +1,5 @@
 const footerStyles = `
 <style>
-
  .footer {
         position: fixed;
         bottom: 0;
@@ -17,8 +16,8 @@ const footerStyles = `
 document.head.insertAdjacentHTML('beforeend', footerStyles);
 
 const footerHTML = `
-<footer>
-    &copy; 2026 STEMPACT (ADD MORE INFO LATER!!)
+<footer class = "footer">
+    &copy; 2026 STEMPACT (ADD MORE INFO LATER!!!)
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;
