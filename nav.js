@@ -12,7 +12,7 @@
              padding: 20px 40px; 
              z-index: 10; /*ensures the nav bar stays on the top of other content*/
            }
-              .nav-links a {
+             .nav-links a {
                   color: #fff9f9; 
                   text-decoration: none; 
                   margin-left: 20px; 
@@ -23,29 +23,29 @@
               .nav-links a:hover {
                   color: #6e83eb; 
               }
-           .logo {
-              display: flex;
-              align-items: center;
-           }
+              .logo {
+                 display: flex;
+                 align-items: center;
+            }
 
-           .logo img {
-              height: 30px; 
-              width: auto;
-              display: block; 
-           }
+            .logo img {
+               height: 30px; 
+               width: auto;
+               display: block; 
+            }
 
-           .logo span {
-              font-family: 'Montserrat', sans-serif;
-              font-weight: 400;         
-              font-size: 20px; 
-              color: #fff9f9;           
-              margin-left: 15px;        
-              line-height: 1;          
-           }
-           </style>
+            .logo span {
+               font-family: 'Montserrat', sans-serif;
+               font-weight: 400;         
+               font-size: 20px; 
+               color: #fff9f9;           
+               margin-left: 15px;        
+               line-height: 1;          
+            }
+            </style>
         
        `;
-       document.head.insertAdjacentHTML('beforeend', navStyles);
+        document.head.insertAdjacentHTML('beforeend', navStyles);
        
       const navHTML = `
       <nav>
