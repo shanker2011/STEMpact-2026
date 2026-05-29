@@ -3,7 +3,7 @@ const footerStyles = `
  .footer {
         width: 100%;
         text-align: center;
-        padding: 50px; 
+        padding: 45px; 
         background-color: rgba(0, 0, 0, 0.5); 
         color: #fff9f9;
         font-family: 'Bebas Neue', sans-serif;
@@ -33,7 +33,7 @@ const footerHTML = `
                 <a href="pictures.html">PHOTOS</a>
     </div>
     <div class="copyright-club">
-    <h6>&copy; STEMPACT — Frisco, TX</h6>
+    <h6>&copy; STEMPACT — Frisco, TX!</h6>
     </div>
 </footer>
 `;
