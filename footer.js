@@ -16,8 +16,12 @@ const footerStyles = `
         color: #fff9f9;
         text-decoration: none;
         margin: 10px;
-        gap: 200px;
     }
+    .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;     
+}
     
     .club-name {  
         margin-bottom: 15px; 
