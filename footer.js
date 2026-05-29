@@ -8,7 +8,7 @@ const footerStyles = `
         color: #fff9f9;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 15px;          
-        background-image: url('https://shanker2011.github.io/STEMpact-2026/Images/bg2.avif');
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://shanker2011.github.io/STEMpact-2026/Images/bg2.avif');
         background-size: cover;
         background-position: bottom;       
         }
