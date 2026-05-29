@@ -17,6 +17,13 @@ const footerStyles = `
         text-decoration: none;
         margin: 10px;
     }
+    
+    .club-name {  
+        margin-top: -20px;
+    }
+    .copyright-club {
+        margin-top: 15px;       
+   }
 </style>
 `;
 document.head.insertAdjacentHTML('beforeend', footerStyles);
