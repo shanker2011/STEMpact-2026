@@ -1,8 +1,6 @@
 const footerStyles = `
 <style>
  .footer {
-        position: relative;
-        top: 0;
         width: 100%;
         text-align: center;
         padding: 50px; 
@@ -12,7 +10,7 @@ const footerStyles = `
         font-size: 15px;                 
         }
     .footer-links a {
-        color: #fff9f9
+        color: #fff9f9;
         text-decoration: none;
         margin: 10px;
     }
@@ -23,16 +21,17 @@ document.head.insertAdjacentHTML('beforeend', footerStyles);
 const footerHTML = `
 <footer class = "footer">
     <div class="club-name">
-                <h6>STEMPACT</h6>
+                <h5>STEMPACT</h5>
      </div>
      <div class="footer-links">
                 <a href="vision.html">ABOUT</a>
                 <a href="research.html">OUR WORK</a>
                 <a href="contact.html">CONTACT US</a>
                 <a href="pictures.html">PHOTOS</a>
-            </div>
+    </div>
     <div class="copyright-club">
-    <h8>&copy; STEMPACT — Frisco, TX!</h8>
+    <h6>&copy; STEMPACT — Frisco, TX</h6>
+    </div>
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;
