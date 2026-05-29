@@ -2,7 +2,7 @@ const footerStyles = `
 <style>
  .footer {
         position: relative;
-        bottom: 0;
+        top: 0;
         width: 100%;
         text-align: center;
         padding: 50px; 
@@ -32,7 +32,7 @@ const footerHTML = `
                 <a href="pictures.html">PHOTOS</a>
             </div>
     <div class="copyright-club">
-    <h8>&copy; STEMPACT — Frisco, TX</h8>
+    <h8>&copy; STEMPACT — Frisco, TX!</h8>
 </footer>
 `;
 document.getElementById('footer-placeholder').innerHTML = footerHTML;
