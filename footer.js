@@ -3,7 +3,7 @@ const footerStyles = `
  .footer {
         width: 100%;
         text-align: center;
-        padding: 45px; 
+        padding: 60px; 
         background-color: rgba(0, 0, 0, 0.5); 
         color: #fff9f9;
         font-family: 'Bebas Neue', sans-serif;
@@ -16,9 +16,11 @@ const footerStyles = `
         color: #fff9f9;
         text-decoration: none;
         margin: 10px;
+        gap: 60px;
     }
     
     .club-name {  
+        margin-bottom: 15px; 
         margin-top: -20px;
     }
     .copyright-club {
