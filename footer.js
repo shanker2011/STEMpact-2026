@@ -7,7 +7,10 @@ const footerStyles = `
         background-color: rgba(0, 0, 0, 0.5); 
         color: #fff9f9;
         font-family: 'Bebas Neue', sans-serif;
-        font-size: 15px;                 
+        font-size: 15px;          
+        background-image: url('https://shanker2011.github.io/STEMpact-2026/Images/bg2.avif');
+        background-size: cover;
+        background-position: bottom;       
         }
     .footer-links a {
         color: #fff9f9;
@@ -30,7 +33,7 @@ const footerHTML = `
                 <a href="pictures.html">PHOTOS</a>
     </div>
     <div class="copyright-club">
-    <h6>&copy; STEMPACT — Frisco, TX!</h6>
+    <h6>&copy; STEMPACT — Frisco, TX</h6>
     </div>
 </footer>
 `;
