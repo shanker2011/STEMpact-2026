@@ -30,7 +30,7 @@ const footerHTML = `
                 <a href="pictures.html">PHOTOS</a>
     </div>
     <div class="copyright-club">
-    <h6>&copy; STEMPACT — Frisco, TX</h6>
+    <h6>&copy; STEMPACT — Frisco, TX!</h6>
     </div>
 </footer>
 `;
