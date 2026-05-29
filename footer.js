@@ -16,7 +16,7 @@ const footerStyles = `
         color: #fff9f9;
         text-decoration: none;
         margin: 10px;
-        gap: 60px;
+        gap: 100px;
     }
     
     .club-name {  
@@ -33,7 +33,7 @@ document.head.insertAdjacentHTML('beforeend', footerStyles);
 const footerHTML = `
 <footer class = "footer">
     <div class="club-name">
-                <h5>STEMPACT</h5>
+                <h3>STEMPACT</h3>
      </div>
      <div class="footer-links">
                 <a href="vision.html">ABOUT</a>
